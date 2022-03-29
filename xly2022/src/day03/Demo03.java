@@ -1,0 +1,1 @@
+package day03;public class Demo03 {    public static void main(String[] args) {        /*         *小于32位的整数运算         *根本原因；byte是“假的”，本质是一个int数据         */        byte b1=5;        byte b2=9;        //byte b3=b1+b2;编译错误；int数不能赋值给byted的类型        byte b3=(byte) (b1+b2);        //byte b3=(byte) b1+(byte) b2;        System.out.println(b3);    }}

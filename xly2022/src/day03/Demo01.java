@@ -1,0 +1,1 @@
+package day03;public class Demo01 {    public static void main(String[] args) {        double pi = 3.14;        int r = 8;        double area = pi = r = r;        //赋值运算的顺序        int n = 5;        n = n + 5;        System.out.println(n);        //赋值表达式的值        int k = 10;        System.out.println(k = k = 2);        System.out.println(k);    }}

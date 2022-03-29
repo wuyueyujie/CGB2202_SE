@@ -1,0 +1,1 @@
+package day04;public class Demo10 {    public static void main(String[] args) {        /*        * 使用元素初始化数组         */        int[] score = {67,78,88,23,99};        for (int i=0; i<5; i++){            System.out.println(score[1]+" ");        }    }}

@@ -1,0 +1,1 @@
+package day04;public class Demo07 {    public static void main(String[] args) {        /*         * 计算 1+2+...+100=？         */        System.out.println((1 + 100) * 100 / 2);        int sum = 0;        for (int i = 1; i <= 100; i++) {            //1=1 2 3 4...100            sum = sum + i;            //sum=1 3 6 10        }        System.out.println(sum);    }}

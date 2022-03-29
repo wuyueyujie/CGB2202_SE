@@ -1,0 +1,1 @@
+package ooday08;public class pok {}

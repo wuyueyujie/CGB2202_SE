@@ -1,0 +1,1 @@
+package day03;import java.util.Scanner;public class Demo07 {    public static void main(String[] args) {        /*        *读取控制台输入字符         */        Scanner scanner=new Scanner(System.in);        String str=scanner.nextLine();//读取一行字符        char ch=str.charAt(0);//取一行字符的第一个        System.out.println(ch);    }}

@@ -1,0 +1,1 @@
+package day05;import java.util.Random;public class Demo04 {    public static void main(String[] args) {        /*        * 测试随机数         */        Random random = new Random();        int n = random.nextInt(8);        System.out.println(n);    }}

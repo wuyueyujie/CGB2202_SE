@@ -1,0 +1,1 @@
+package day03;public class Demo02 {    public static void main(String[] args) {        /*        *测试 复合赋值 运算         */        int n=5;        System.out.println(n);        n=8;        n+=5;        System.out.println(n);    }}

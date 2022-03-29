@@ -1,0 +1,1 @@
+package day01;public class Demo03 {    public static void main(String[] args) {        /*        *变量的语法        * times：次数        */        //不声明times变量，直接使用出现编译错误        //System.out.println(times);        int times;        times=50;        System.out.println(times);    }}

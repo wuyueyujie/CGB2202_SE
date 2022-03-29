@@ -1,0 +1,1 @@
+package apiday01;/** * char charAt(int index) * 返回当前字符串直定位置上的字符 */public class CharAtDemo {   //indexOf    public static void main(String[] args) {        //                      1111111        //            01234567890123456        String str = "thinking in saber";        char c = str.charAt(9);//获取位置*所对应的字符        System.out.println(c);//i    }}

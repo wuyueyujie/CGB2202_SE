@@ -1,0 +1,1 @@
+package ooday05_vis;import ooday05.Aoo;public class Coo {    void show(){//-------------演示同包的        Aoo o = new Aoo();        o.a = 1;        //o.b = 2;//编译错误        //o.c = 3;//编译错误        //o.4 = 4;//编译错误    }}

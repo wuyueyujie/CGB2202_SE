@@ -1,0 +1,1 @@
+package day03;public class Demo05 {    public static void main(String[] args) {        /*        * 非运算：判断一个数不能被100整除         */        int n=6564;        //         !(6564%100==0)        //         !(64      ==0)        //         !false        //         true        boolean pass=(n%100==0);        System.out.println(pass);//true    }}

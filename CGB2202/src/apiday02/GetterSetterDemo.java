@@ -1,0 +1,1 @@
+package apiday02;public class GetterSetterDemo {    public static void main(String[] args) {            Point p = new Point(45,75);            p.setX(100);//赋值            p.setY(200);//赋值        System.out.println(p.getX()+","+p.getY());//取值    }}

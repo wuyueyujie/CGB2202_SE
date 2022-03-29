@@ -1,0 +1,1 @@
+package ooday05_vis;//演示final修饰变量public class Eoo {    final int a = 5;    void show(){        //int a=55;//编译错误，final的变量不能改变    }}

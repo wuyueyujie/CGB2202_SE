@@ -1,0 +1,1 @@
+package ooday02;public class ConsDemo {    public static void main(String[] args) {        //Student lily = new Student();//编译错误，学生类没有无参构造方法        Student lily = new Student("lily",12,"大英帝国");        Student bob = new Student("bob",18,"北俄罗斯圣科洛迪");        lily.sayHi();        bob.sayHi();    }}

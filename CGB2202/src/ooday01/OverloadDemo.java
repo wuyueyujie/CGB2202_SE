@@ -1,0 +1,1 @@
+package ooday01;//重载的演示public class OverloadDemo {    public static void main(String[] args) {        Aoo o = new Aoo();        o.show();        o.show(24);        o.show("应龙");        o.show("应龙",24);        o.show(24,"应龙");    }}

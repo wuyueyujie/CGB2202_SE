@@ -1,0 +1,1 @@
+package day05;public class Demo05 {    public static void main(String[] args) {        /*        * 交换两个变量,3个变量首尾相接兜圈变赋值         */        int a=5;        int b=8;        int t=a;        a=b;        b=t;        System.out.println(a);        System.out.println(b);    }}
